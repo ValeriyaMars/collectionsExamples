@@ -18,16 +18,16 @@ public class ArraysListExamples {
         System.out.println(stringList);
         System.out.println(stringList.size());
 
-        if (stringList.contains("Третий")){
+        if (stringList.contains("Третий")) {
             stringList.clear();
         }
         System.out.println(stringList);
 
         List<Integer> intList = new ArrayList<>(5);
-       
+
         intList.add(1);
         intList.add(3);
-        intList.add(1,2);
+        intList.add(1, 2);
         intList.add(4);
 
         System.out.println(intList);

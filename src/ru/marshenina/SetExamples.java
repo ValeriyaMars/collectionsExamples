@@ -38,7 +38,7 @@ public class SetExamples {
         treeStringSet.add(1);
 
         for (Integer value : treeStringSet)
-        System.out.println(value);
+            System.out.println(value);
 
     }
 }
